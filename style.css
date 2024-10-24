@@ -1,0 +1,260 @@
+  /*общие настройки сетки*/
+  .grid {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-template-rows: repeat(auto-fill, 405px);
+  }
+  /*внешний вид ячеек*/
+  .grid > * {
+    /*фоновый цвет*/
+    background-color: #000000;
+    /*скругление углов*/
+    border-radius: 16px;
+    /*расстояние от одной границы ячейки до другой*/
+    margin: 10px;
+  }
+  .grid1 {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    grid-template-rows: repeat(auto-fill, 405px);
+  }
+  .grid1 > * {
+    background-color: #000000;
+    border-radius: 16px;
+    margin: 10px;
+  } 
+body{
+    background-image: url(../images/3d-glasses-for-movies-and-tickets-above-view.jpg);
+    min-width: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn1 {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 4px 54px;
+  color: #ff0000;
+  background: #000000;
+  border-radius: 15px;
+  border: 2px solid #000000;
+}
+.btn1:hover {
+  background: #000000;
+  color: #0011ff;
+  border: 2px solid #000000;
+  transition: all 1.2s ease;
+}
+.btn2 {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 2px 11px;
+  color: #ff0000;
+  background: #000000;
+  border-radius: 15px;
+  border: 2px solid #000000;
+}
+.btn2:hover {
+  background: #000000;
+  color: #ff9b3e;
+  border: 2px solid #000000;
+  transition: all 1.2s ease;
+}
+.btn3 {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 3px 76px;
+  color: #ff0000;
+  background: #000000;
+  border-radius: 15px;
+  border: 2px solid #000000;
+}
+.btn3:hover {
+  background: #000000;
+  color: #ffe600;
+  border: 2px solid #000000;
+  transition: all 1.2s ease;
+}
+.btn4 {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 4px 50px;
+  color: #ff0000;
+  background: #000000;
+  border-radius: 15px;
+  border: 2px solid #000000;
+}
+.btn4:hover {
+  background: #000000;
+  color: #66ff00;
+  border: 2px solid #000000;
+  transition: all 1.2s ease;
+}
+.btn5 {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 4px 80px;
+  color: #ff0000;
+  background: #000000;
+  border-radius: 15px;
+  border: 2px solid #000000;
+}
+.btn5:hover {
+  background: #000000;
+  color: #0d9c00;
+  border: 2px solid #000000;
+  transition: all 1.2s ease;
+}
+.btn6 {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 4px 40px;
+  color: #ff0000;
+  background: #000000;
+  border-radius: 15px;
+  border: 2px solid #000000;
+}
+.btn6:hover {
+  background: #000000;
+  color: #00e1ff;
+  border: 2px solid #000000;
+  transition: all 1.2s ease;
+}
+.btn7 {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 4px 30px;
+  color: #ff0000;
+  background: #000000;
+  border-radius: 15px;
+  border: 2px solid #000000;
+}
+.btn7:hover {
+  background: #000000;
+  color: #0044ff;
+  border: 2px solid #000000;
+  transition: all 1.2s ease;
+}
+.btn8 {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 4px 30px;
+  color: #ff0000;
+  background: #000000;
+  border-radius: 15px;
+  border: 2px solid #000000;
+}
+.btn8:hover {
+  background: #000000;
+  color: #0044ff;
+  border: 2px solid #000000;
+  transition: all 1.2s ease;
+}
+.btn9 {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 4px 30px;
+  color: #ff0000;
+  background: #000000;
+  border-radius: 15px;
+  border: 2px solid #000000;
+}
+.btn9:hover {
+  background: #000000;
+  color: #0044ff;
+  border: 2px solid #000000;
+  transition: all 1.2s ease;
+}
+.btn1-1 {
+  display: inline-block;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 1px 80px;
+  color: #ff0000;
+  background: #000000;
+  border-radius: 15px;
+  border: 2px solid #000000;
+}
+.btn1-1:hover {
+  background: #000000;
+  color: #0011ff;
+  border: 2px solid #000000;
+  transition: all 1.2s ease;
+}
+.privetstvie{
+  display: flex;
+  font-size: 20px;
+  color: #51ff00;
+  text-align: center;
+  background-color: #575656;
+}
+.privetstvie1{
+  display: flex;
+  font-size: 20px;
+  color: #51ff00;
+  text-align: center;
+  background-color: #575656;
+}
+		.About-Us {
+			color: #51ff00;
+			background-color: #575656;
+			justify-content: center;
+			display: grid;
+			grid-template-columns: repeat(auto-fill, 190px);
+			grid-template-rows: repeat(auto-fill, 50px);
+			font-size: 200%;
+      margin-top: 30px;
+		}
+
+    
+    body {
+      margin: 0;
+      background-color: #f1f1f1;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #navbar {
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      display: block;
+      transition: top 0.3s;
+  }
+
+  #navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 15px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+
+  #navbar a:hover {
+      background-color: #ddd;
+      color: black;
+  }
